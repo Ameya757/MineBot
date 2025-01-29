@@ -45,30 +45,6 @@ function Home() {
         <source src={video} type="video/mp4"/>
         Your browser does not support the video tag.
     </video>
-    {/* <header>
-        <div className="content">
-            <img src={logo} alt="Logo" className="logo"/>
-            <div className="header-text">
-                <h2>The MineBot</h2>
-                <p>Simplify Your Mining Queries with Us</p>
-
-            </div>
-            <div className="otherContent">
-                <div className="nav1">
-                    <a href="home.html">Home</a>
-                </div>
-                <div className="nav2">
-                    <a href="about.html">About Us</a>
-                </div>
-                <div className="nav3">
-                    <a href="contact.html">Contact Us</a>
-                </div>
-
-            </div>
-
-
-        </div>
-    </header> */}
     <div className="hero">
     <div className="slideshow-container" id="slideshow">
       {slides.map((slide, index) => (
